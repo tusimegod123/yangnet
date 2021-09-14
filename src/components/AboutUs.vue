@@ -128,7 +128,7 @@
     <v-container fluid>
       <v-row>
         <v-col class="how-we-work">
-          <v-img max-width="700" src="../assets/try7.jpg" />
+          <v-img max-width="700" src="../assets/entreprenure.jpg" />
         </v-col>
         <v-col style="background: #edf9ee">
           <p
@@ -305,7 +305,7 @@ input {
   background-image: url("../assets/young-about.webp");
 }
 .how-we-work {
-  background-image: url("../assets/try7.jpg");
+  background-image: url("../assets/entreprenure.jpg");
 }
 .history {
   background-image: url("../assets/try6.jpg");

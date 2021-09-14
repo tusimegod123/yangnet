@@ -23,6 +23,7 @@
 
     <v-container fluid style="background-color: #1b9527; color: #ffff">
       <v-row>
+        <v-col></v-col>
         <v-col md="3" xs="6">
           <h3 style="color: #ffff">CONTACT US</h3>
           <p
@@ -54,12 +55,12 @@
               font-weight: 300;
               line-height: 30px;
               letter-spacing: 0em;
-              text-decoration:none;
+              text-decoration: none;
             "
           >
             facebook
           </a>
-          <br /><br />
+          <br />
           <a
             href="https://twitter.com/YAGANET1"
             target="_blank"
@@ -70,12 +71,12 @@
               line-height: 30px;
               letter-spacing: 0em;
               color: #ffff;
-              text-decoration:none;
+              text-decoration: none;
             "
           >
             twitter
           </a>
-          <br /><br />
+          <br />
           <a
             href="https://www.linkedin.com/in/young-agro-green-africa-network-b57a95186/"
             target="_blank"
@@ -86,11 +87,11 @@
               line-height: 30px;
               letter-spacing: 0em;
               color: #ffff;
-                 text-decoration:none;
+              text-decoration: none;
             "
           >
             linkedIn </a
-          ><br /><br />
+          ><br />
           <a
             href="https://www.instagram.com/yaganet_africa/"
             target="_blank"
@@ -101,11 +102,11 @@
               line-height: 30px;
               letter-spacing: 0em;
               color: #ffff;
-                 text-decoration:none;
+              text-decoration: none;
             "
           >
             instagram </a
-          ><br /><br />
+          ><br />
           <a
             href="https://youtu.be/tkKPL_uWbek"
             target="_blank"
@@ -116,7 +117,7 @@
               line-height: 30px;
               letter-spacing: 0em;
               color: #ffff;
-                 text-decoration:none;
+              text-decoration: none;
             "
           >
             youtube
@@ -135,6 +136,7 @@
             financial inclusion.
           </p>
         </v-col>
+        <v-col></v-col>
       </v-row>
     </v-container>
     <v-divider></v-divider>

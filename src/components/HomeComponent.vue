@@ -3,7 +3,7 @@
     <v-container id="container" fluid>
       <v-row no-gutters>
         <v-col cols="12" md="12" xs="12">
-          <p id="intro">Let’s a world a better place for everyone</p>
+          <p id="intro">Let’s make a world a better place for everyone</p>
         </v-col>
       </v-row>
     </v-container>
@@ -192,24 +192,24 @@
           ><v-img src="../assets/try.jpg"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try3.jpg"
+          ><v-img src="../assets/entreprenure.jpg"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try1.jpg"
+          ><v-img src="../assets/finacial-litrancy.jpg"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try2.jpg"
+          ><v-img src="../assets/MLD-PROGRAM (3).jpg"
         /></v-col>
       </v-row>
       <v-row>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try4.jpg"
+          ><v-img src="../assets/FB_IMG_1631279094008.jpg"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
           ><v-img src="../assets/try5.jpg"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try6.jpg"
+          ><v-img src="../assets/agric-pillar.jpg"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
           ><v-img src="../assets/try7.jpg"
@@ -231,10 +231,13 @@
           <v-img src="../assets/wilmat.png" />
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-img src="../assets/partner.jpeg" />
+          <v-img src="../assets/kagupedi logo--patner (1).jpg" />
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-img src="../assets/wilmat.png" />
+          <v-img src="../assets/Aflatoun-International-small (1).jpg" />
+        </v-col>
+        <v-col cols="12" sm="3" md="3" lg="3">
+          <v-img src="../assets/GGF LOGO--Patner (1).png" />
         </v-col>
       </v-row>
     </v-container>

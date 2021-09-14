@@ -98,7 +98,7 @@
               class="pb-0"
               style="color: #1b9527; font-weight: 600"
             >
-              EMentorship and Life skills development (MLD)</v-card-subtitle
+              Mentorship and Life skills development (MLD)</v-card-subtitle
             >
 
             <v-card-text class="text--primary">

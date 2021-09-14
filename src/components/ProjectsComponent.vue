@@ -5,6 +5,19 @@
         <span style="color: #1b9527; font-size: 2rem"> OUR </span>PROJECTS
       </h3>
     </div>
+    <v-container style="text-align: center; font-family: italic">
+      <v-row>
+        <v-col>
+          <p>
+            Our interventions are meant to bring about sustainable relationships
+            among human being and surrounding environment, cause positive impact
+            to the vulnerable people from poor underserved communities. We
+            ensure that our beneficiaries experience a shift, rethinking our
+            strategy based on values and the future becomes more encouraged.
+          </p>
+        </v-col>
+      </v-row>
+    </v-container>
 
     <v-container fluid>
       <v-row id="second-container">
@@ -166,10 +179,7 @@
 
         <v-col cols="12" sm="12" md="3" lg="3">
           <v-card class="mx-auto">
-            <v-img
-              src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-              height="200px"
-            ></v-img>
+            <v-img src="../assets/whatsap.jpg" height="200px"></v-img>
 
             <v-card-title style="font-size: 1rem">
               Emergency response to climate change effects e.g Food relief to

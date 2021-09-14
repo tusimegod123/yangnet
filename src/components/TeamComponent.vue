@@ -163,9 +163,14 @@
             <div>
               <v-divider></v-divider>
 
-              <v-card-text> Member </v-card-text>
+              <v-card-text>
+                Founder of Umgibe Farming Organics and Training Institute South
+                Africa <br />
+                <span>
+                  <a href="tel:071-137-7779  ">071-137-7779 </a>
+                </span>
+              </v-card-text>
             </div>
-            <br /><br />
           </v-card>
         </v-col>
         <v-col cols="12" sm="12" md="4" lg="4">
@@ -215,11 +220,135 @@
 
               <v-card-text>
                 Founder and Executive Director Creations Forum Afrika Rwenzori
-                region<br /><br />
+                region<br />
                 <span>
-                  <a href="tel: +256" target="_blank">+256</a>
+                  <a href="mailto:www.creationsforumafrika.org "
+                    >www.creationsforumafrika.org
+                  </a>
                 </span>
               </v-card-text>
+            </div>
+          </v-card>
+        </v-col>
+      </v-row>
+      <div style="text-align: center; margin-top: 15px">
+        <h3 style="font-size: 2rem">
+          <span style="color: #1b9527; font-size: 2rem"> OUR </span>STAFF
+        </h3>
+      </div>
+      <v-row>
+        <v-col cols="12" sm="12" md="4" lg="4">
+          <v-card class="mx-auto" style="text-align: center">
+            <v-img
+              src=""
+              height="200px"
+              width="200px"
+              style="border-radius: 50%; margin: auto; padding: 10px"
+            ></v-img>
+
+            <h3 style="font-size: 1rem; text-align: center; color: #1b9527">
+              Baluku Isaya
+            </h3>
+            <h4>Executive Director</h4>
+
+            <div>
+              <v-divider></v-divider>
+            </div>
+          </v-card>
+        </v-col>
+
+        <v-col cols="12" sm="12" md="4" lg="4">
+          <v-card class="mx-auto" style="text-align: center">
+            <v-img
+              src=""
+              height="200px"
+              width="200px"
+              style="border-radius: 50%; margin: auto; padding: 10px"
+            ></v-img>
+
+            <h3 style="font-size: 1rem; text-align: center; color: #1b9527">
+              Musoki Molly
+            </h3>
+            <h4>Programs coordinator</h4>
+
+            <div>
+              <v-divider></v-divider>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="12" md="4" lg="4">
+          <v-card class="mx-auto" style="text-align: center">
+            <v-img
+              src=""
+              height="200px"
+              width="200px"
+              style="border-radius: 50%; margin: auto; padding: 10px"
+            ></v-img>
+
+            <h3 style="font-size: 1rem; text-align: center; color: #1b9527">
+              Muhindo Alice
+            </h3>
+            <h4>Disability inclusion officer</h4>
+
+            <div>
+              <v-divider></v-divider>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="12" md="4" lg="4">
+          <v-card class="mx-auto" style="text-align: center">
+            <v-img
+              src=""
+              height="200px"
+              width="200px"
+              style="border-radius: 50%; margin: auto; padding: 10px"
+            ></v-img>
+
+            <h3 style="font-size: 1rem; text-align: center; color: #1b9527">
+              Biira Lilian
+            </h3>
+            <h4>Project coordinator</h4>
+
+            <div>
+              <v-divider></v-divider>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="12" md="4" lg="4">
+          <v-card class="mx-auto" style="text-align: center">
+            <v-img
+              src=""
+              height="200px"
+              width="200px"
+              style="border-radius: 50%; margin: auto; padding: 10px"
+            ></v-img>
+
+            <h3 style="font-size: 1rem; text-align: center; color: #1b9527">
+              Muhindo Immaculate
+            </h3>
+            <h4>Finance and administration officer</h4>
+
+            <div>
+              <v-divider></v-divider>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="12" md="4" lg="4">
+          <v-card class="mx-auto" style="text-align: center">
+            <v-img
+              src=""
+              height="200px"
+              width="200px"
+              style="border-radius: 50%; margin: auto; padding: 10px"
+            ></v-img>
+
+            <h3 style="font-size: 1rem; text-align: center; color: #1b9527">
+              Bwambale Zalimon
+            </h3>
+            <h4>Agribusiness and Climate Justice officer</h4>
+
+            <div>
+              <v-divider></v-divider>
             </div>
           </v-card>
         </v-col>
