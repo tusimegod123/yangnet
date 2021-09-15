@@ -225,20 +225,51 @@
     <v-container>
       <v-row>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-img src="../assets/partner.jpeg" />
+          <v-card class="mx-auto" height="200px">
+            <p style="margin: auto; padding: 10px; padding-top: 50px">
+              <v-img
+                src="../assets/GGF LOGO--Patner (1).png"
+                width="500px"
+              ></v-img>
+            </p>
+          </v-card>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-img src="../assets/wilmat.png" />
+          <v-card class="mx-auto" height="200px">
+            <p style="margin: auto; padding: 10px; padding-top: 30px">
+              <v-img
+                src="../assets/Aflatoun-International-small (1).jpg"
+                width="300px"
+              ></v-img>
+            </p>
+          </v-card>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-img src="../assets/kagupedi logo--patner (1).jpg" />
+          <v-card class="mx-auto" height="200px">
+            <p style="margin: auto; padding: 10px">
+              <v-img
+                src="../assets/kagupedi logo--patner (1).jpg"
+                width="300px"
+                height="190px"
+              ></v-img>
+            </p>
+          </v-card>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-img src="../assets/Aflatoun-International-small (1).jpg" />
+          <v-card class="mx-auto" height="200px">
+            <p style="margin: auto; padding: 10px">
+              <v-img src="../assets/wilmat.png" width="300px"></v-img>
+            </p>
+          </v-card>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-img src="../assets/GGF LOGO--Patner (1).png" />
-        </v-col>
+          <v-card class="mx-auto">
+            <p style="margin: auto; padding: 10px">
+              <v-img
+                src="../assets/partner.jpeg"
+                width="300px"
+              ></v-img></p></v-card
+        ></v-col>
       </v-row>
     </v-container>
   </div>

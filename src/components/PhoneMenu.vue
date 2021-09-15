@@ -39,10 +39,17 @@
         </template>
       </v-list-group>
     </router-link>
-    <router-link to="/about" style="text-decoration: none">
+    <router-link to="/" style="text-decoration: none">
       <v-list-group>
         <template v-slot:activator>
           <v-list-item-title>Media</v-list-item-title>
+        </template>
+      </v-list-group>
+    </router-link>
+    <router-link to="/" style="text-decoration: none">
+      <v-list-group>
+        <template v-slot:activator>
+          <v-list-item-title>Gallery</v-list-item-title>
         </template>
       </v-list-group>
     </router-link>

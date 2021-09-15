@@ -118,6 +118,21 @@
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
             <a
+              href="#"
+              class="white--text ma-7"
+              v-bind="attrs"
+              v-on="on"
+              style="text-decoration: none"
+              icon
+              @click="show4 = !show4"
+              >Gallery
+            </a>
+          </template>
+        </v-menu>
+
+        <v-menu :key="text" :rounded="rounded" offset-y>
+          <template v-slot:activator="{ attrs, on }">
+            <a
               href="/getinvolved"
               class="white--text ma-7"
               v-bind="attrs"

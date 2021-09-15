@@ -23,8 +23,7 @@
 
     <v-container fluid style="background-color: #1b9527; color: #ffff">
       <v-row>
-        <v-col></v-col>
-        <v-col md="3" xs="6">
+        <v-col cols="12" md="3" sm="12" lg="3">
           <h3 style="color: #ffff">CONTACT US</h3>
           <p
             style="
@@ -43,7 +42,7 @@
           </p>
         </v-col>
 
-        <v-col md="3" xs="6">
+        <v-col cols="12" md="3" sm="12" lg="3" style="text-align: center">
           <h3>Social</h3>
           <a
             href="https://www.facebook.com/Young.AgroGreenafrica.net/"
@@ -123,7 +122,7 @@
             youtube
           </a>
         </v-col>
-        <v-col cols="12" md="3" id="col-hiden">
+        <v-col cols="12" sm="12" md="3" lg="3">
           <v-img
             style="margin-left: auto; margin-right: auto"
             height="135"
@@ -136,7 +135,28 @@
             financial inclusion.
           </p>
         </v-col>
-        <v-col></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3">
+          <h3>Get in touch with us</h3>
+          <v-text-field
+            v-model="firstname"
+            label="Name"
+            required
+            solo
+          ></v-text-field>
+          <v-text-field
+            v-model="firstname"
+            label="Email"
+            required
+            solo
+          ></v-text-field>
+          <v-textarea
+            v-model="firstname"
+            label="Message"
+            required
+            solo
+          ></v-textarea>
+          <v-btn color="white"><span style="color: green">Submit</span></v-btn>
+        </v-col>
       </v-row>
     </v-container>
     <v-divider></v-divider>
