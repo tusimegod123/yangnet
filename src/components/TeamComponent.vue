@@ -11,6 +11,33 @@
         <v-col cols="12" sm="12" md="4" lg="4">
           <v-card class="mx-auto" style="text-align: center">
             <v-img
+              src="../assets/NONHLANHLA JOYE-....Position TRUSTEE.jpeg"
+              height="200px"
+              width="200px"
+              style="border-radius: 50%; margin: auto; padding: 10px"
+            ></v-img>
+
+            <h3 style="font-size: 1rem; text-align: center; color: #1b9527">
+              Nonhlanhla Joye
+            </h3>
+            <h4>Trustee</h4>
+
+            <div>
+              <v-divider></v-divider>
+
+              <v-card-text>
+                Founder of Umgibe Farming Organics and Training Institute South
+                Africa <br />
+                <span>
+                  <a href="tel:071-137-7779  ">071-137-7779 </a>
+                </span>
+              </v-card-text>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="12" md="4" lg="4">
+          <v-card class="mx-auto" style="text-align: center">
+            <v-img
               src="../assets/ALLEN ASIIMWE---Chairperson Board.jpeg"
               height="200px"
               width="200px"
@@ -146,33 +173,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col cols="12" sm="12" md="4" lg="4">
-          <v-card class="mx-auto" style="text-align: center">
-            <v-img
-              src="../assets/NONHLANHLA JOYE-....Position TRUSTEE.jpeg"
-              height="200px"
-              width="200px"
-              style="border-radius: 50%; margin: auto; padding: 10px"
-            ></v-img>
 
-            <h3 style="font-size: 1rem; text-align: center; color: #1b9527">
-              Nonhlanhla Joye
-            </h3>
-            <h4>Trustee</h4>
-
-            <div>
-              <v-divider></v-divider>
-
-              <v-card-text>
-                Founder of Umgibe Farming Organics and Training Institute South
-                Africa <br />
-                <span>
-                  <a href="tel:071-137-7779  ">071-137-7779 </a>
-                </span>
-              </v-card-text>
-            </div>
-          </v-card>
-        </v-col>
         <v-col cols="12" sm="12" md="4" lg="4">
           <v-card class="mx-auto" style="text-align: center">
             <v-img

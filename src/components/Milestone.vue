@@ -1,7 +1,7 @@
 <template>
-<div>
-  <top-nav />
-  <main-nav />
+  <div>
+    <top-nav />
+    <main-nav />
     <div style="text-align: center; margin-top: 15px">
       <h3 style="font-size: 2rem">
         <span style="color: #1b9527; font-size: 2rem"> OUR </span>MILESTONE
@@ -18,7 +18,7 @@
               :class="{ 'on-hover': hover }"
               style="height: 200px; margin: 20px"
             >
-              <h1 style="text-align: center; color: #1b9527;">06</h1>
+              <h1 style="text-align: center; color: #1b9527">06</h1>
               <p
                 style="
                   font-family: Roboto;
@@ -32,14 +32,14 @@
                   padding: 1px;
                 "
               >
-               Districts have been reached
+                Districts have been reached
               </p>
             </v-card>
           </v-hover>
         </v-col>
         <v-col cols="12" sm="12" md="3" lg="3">
           <v-card style="height: 200px; margin: 20px">
-            <h1 style="text-align: center; color: #1b9527;">10,000+</h1>
+            <h1 style="text-align: center; color: #1b9527">10,000+</h1>
             <p
               style="
                 font-family: Roboto;
@@ -53,13 +53,14 @@
                 padding: 1px;
               "
             >
-             Women and youths have been empowered with business and financial literacy skills and knowledge
+              Women and youths have been empowered with business and financial
+              literacy skills and knowledge
             </p>
           </v-card>
         </v-col>
         <v-col cols="12" sm="12" md="3" lg="3">
           <v-card style="height: 200px; margin: 20px">
-            <h1 style="text-align: center; color: #1b9527;">50</h1>
+            <h1 style="text-align: center; color: #1b9527">50</h1>
 
             <p
               style="
@@ -74,7 +75,8 @@
                 padding: 1px;
               "
             >
-              Women and youth lead enterprises have been established and strengthened
+              Women and youth lead enterprises have been established and
+              strengthened
             </p>
           </v-card>
         </v-col>
@@ -96,12 +98,13 @@
               padding-top: 80px;
             "
           >
-            YAGANET was founded in 2016 as a social enterprise working to see
-            inclusive financial and non-financial services, delivering and
-            spreading financial literacy knowledge, business and life skills
-            training services to under-served young people aged 8-24yrs and
-            women between 24-35yrs while leveraging on partnerships and bringing
-            economies of scale.
+            Young Agro-Green Africa Network (YAGANET) is a non-profit social
+            enterprise founded in 2016, with the aim of promoting climate
+            justice agribusiness and response; gender and financial inclusions;
+            research and advocacy; mentorship and life skills empowerment among
+            under-served vulnerable young people and women while leveraging on
+            partnerships. YAGANET’s prime motto is
+            <b> ‘Young people and women at the forefront of actions.’</b>
           </p>
         </v-col>
         <v-col class="about-col">
@@ -109,19 +112,18 @@
         </v-col>
       </v-row> </v-container
     ><br />
-  <Footer />
-</div>
+    <Footer />
+  </div>
 </template>
 
 <script>
-import Footer from './Footer.vue'
-import MainNav from './MainNav.vue'
-import TopNav from './TopNav.vue'
+import Footer from "./Footer.vue";
+import MainNav from "./MainNav.vue";
+import TopNav from "./TopNav.vue";
 export default {
-    name:"Milestone",
+  name: "Milestone",
   components: { TopNav, MainNav, Footer },
-
-}
+};
 </script>
 
 <style scoped>

@@ -108,12 +108,13 @@
               padding-top: 80px;
             "
           >
-            YAGANET was founded in 2016 as a social enterprise working to see
-            inclusive financial and non-financial services, delivering and
-            spreading financial literacy knowledge, business and life skills
-            training services to under-served young people aged 8-24yrs and
-            women between 24-35yrs while leveraging on partnerships and bringing
-            economies of scale.
+            Young Agro-Green Africa Network (YAGANET) is a non-profit social
+            enterprise founded in 2016, with the aim of promoting climate
+            justice agribusiness and response; gender and financial inclusions;
+            research and advocacy; mentorship and life skills empowerment among
+            under-served vulnerable young people and women while leveraging on
+            partnerships. YAGANET’s prime motto is
+            <b> ‘Young people and women at the forefront of actions.’</b>
           </p>
         </v-col>
       </v-row> </v-container
