@@ -118,7 +118,7 @@
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
             <a
-              href="#"
+              href="/gallery"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"

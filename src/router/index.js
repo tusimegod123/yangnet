@@ -22,6 +22,14 @@ const routes = [
     },
   },
   {
+    path: "/gallery",
+    name: "Gallery",
+    component: () => import("@/views/Gallery.vue"),
+    meta: {
+      basicAuth: true,
+    },
+  },
+  {
     path: "/how",
     name: "Work",
     component: () => import("@/views/Work.vue"),
