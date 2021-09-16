@@ -230,51 +230,71 @@
     <v-container>
       <v-row>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-card class="mx-auto" height="200px">
-            <p style="margin: auto; padding: 10px; padding-top: 50px">
-              <v-img
-                src="../assets/GGF LOGO--Patner (1).png"
-                width="500px"
-              ></v-img>
-            </p>
-          </v-card>
+          <a href="https://www.greengrants.org/" target="_blank">
+            <v-card class="mx-auto" height="200px">
+              <p style="margin: auto; padding: 10px; padding-top: 50px">
+                <v-img
+                  src="../assets/GGF LOGO--Patner (1).png"
+                  width="500px"
+                ></v-img>
+              </p>
+            </v-card>
+          </a>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-card class="mx-auto" height="200px">
-            <p style="margin: auto; padding: 10px; padding-top: 30px">
-              <v-img
-                src="../assets/Aflatoun-International-small (1).jpg"
-                width="300px"
-              ></v-img>
-            </p>
-          </v-card>
+          <a href="https://umgibe.org/" target="_blank">
+            <v-card class="mx-auto" height="200px">
+              <p style="margin: auto; padding: 10px; padding-top: 50px">
+                <v-img
+                  src="../assets/Umgibe-Farming-Organics-LOGO.png"
+                  width="500px"
+                ></v-img>
+              </p>
+            </v-card>
+          </a>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-card class="mx-auto" height="200px">
-            <p style="margin: auto; padding: 10px">
-              <v-img
-                src="../assets/kagupedi logo--patner (1).jpg"
-                width="300px"
-                height="190px"
-              ></v-img>
-            </p>
-          </v-card>
+          <a href="https://www.aflatoun.org/" target="_blank">
+            <v-card class="mx-auto" height="200px">
+              <p style="margin: auto; padding: 10px; padding-top: 30px">
+                <v-img
+                  src="../assets/Aflatoun-International-small (1).jpg"
+                  width="300px"
+                ></v-img>
+              </p>
+            </v-card>
+          </a>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-card class="mx-auto" height="200px">
-            <p style="margin: auto; padding: 10px">
-              <v-img src="../assets/wilmat.png" width="300px"></v-img>
-            </p>
-          </v-card>
+          <a href="https://kadupedi.wordpress.com/" target="_blank">
+            <v-card class="mx-auto" height="200px">
+              <p style="margin: auto; padding: 10px">
+                <v-img
+                  src="../assets/kagupedi logo--patner (1).jpg"
+                  width="300px"
+                  height="190px"
+                ></v-img>
+              </p>
+            </v-card>
+          </a>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
-          <v-card class="mx-auto">
-            <p style="margin: auto; padding: 10px">
-              <v-img
-                src="../assets/partner.jpeg"
-                width="300px"
-              ></v-img></p></v-card
-        ></v-col>
+          <a href="https://www.wdfug.org/" target="_blank">
+            <v-card class="mx-auto" height="200px">
+              <p style="margin: auto; padding: 10px">
+                <v-img src="../assets/wilmat.png" width="300px"></v-img>
+              </p>
+            </v-card>
+          </a>
+        </v-col>
+        <v-col cols="12" sm="3" md="3" lg="3">
+          <a href="https://raisingteenagers.org/" target="_blank">
+            <v-card class="mx-auto">
+              <p style="margin: auto; padding: 10px">
+                <v-img src="../assets/partner.jpeg" width="300px"></v-img></p
+            ></v-card>
+          </a>
+        </v-col>
       </v-row>
     </v-container>
   </div>
