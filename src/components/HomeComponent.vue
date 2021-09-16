@@ -171,7 +171,7 @@
           <p
             style="
               font-family: Roboto;
-              font-size: 24px;
+              font-size: 22px;
               font-style: normal;
               font-weight: 300;
               line-height: 28px;
@@ -183,6 +183,11 @@
             beneficiaries including marginalized youths and women from
             undeserved rural communities, war affected areas, refugee camps and
             slums.
+            <span
+              ><a href="/milestone" style="color: green; text-decoration: none"
+                >Read more</a
+              ></span
+            >
           </p>
         </v-col>
         <v-col cols="12" sm="12" md="2" lg="2"></v-col>
