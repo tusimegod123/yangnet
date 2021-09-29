@@ -29,13 +29,6 @@
               >About Us
             </a>
           </template>
-
-          <v-list>
-            <links title="About Us" link="/about" />
-            <!-- <links title="New Constructions" />
-                    <links title="For sale by owner" />
-                    <links link="/" title="Open houses" /> -->
-          </v-list>
         </v-menu>
 
         <v-menu :key="text" :rounded="rounded" offset-y>

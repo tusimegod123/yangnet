@@ -2,7 +2,7 @@
   <div>
     <v-carousel>
       <v-carousel-item>
-        <v-img src="../assets/try7.jpg" />
+        <v-img src="../assets/try7.jpg" class="coursel-image" />
       </v-carousel-item>
       <v-carousel-item>
         <v-img src="../assets/try1.jpg" />
@@ -292,7 +292,7 @@
           </p>
         </v-col>
         <v-col class="history">
-          <v-img max-width="700" src="../assets/try6.jpg" />
+          <v-img max-width="700" src="../assets/gallery.jpg" />
         </v-col>
       </v-row> </v-container
     ><br />
@@ -323,7 +323,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .property-link {
   text-decoration: none;
   color: rgb(50, 50, 250);
@@ -383,7 +383,7 @@ input {
   background-image: url("../assets/try7.jpg");
 }
 .history {
-  background-image: url("../assets/try6.jpg");
+  background-image: url("../assets/gallery.jpg");
 }
 .volunteer {
   background-image: url("../assets/volunteer.jpg");
@@ -397,8 +397,15 @@ input {
   background-color: #f4f5f8;
   height: 310px;
 }
+.coursel-image {
+  height: 670px;
+}
 
 @media only screen and (max-width: 768px) {
+  .coursel-image {
+    height: 500px;
+  }
+
   #container {
     height: 30vh;
     width: 100%;

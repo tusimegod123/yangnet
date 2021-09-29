@@ -1,15 +1,15 @@
 <template>
   <div>
     <v-carousel>
-      <v-carousel-item>
-        <v-img src="../assets/try2.jpg" />
+      <v-carousel-item id="carousel">
+        <v-img src="../assets/pillar11.jpg" class="coursel-image" />
       </v-carousel-item>
       <v-carousel-item>
         <v-img src="../assets/try1.jpg" />
       </v-carousel-item>
     </v-carousel>
 
-    <div style="text-align: center; margin-top: 15px">
+    <div id="program">
       <h3 style="font-size: 2rem">
         PROGRAM<span style="color: #1b9527; font-size: 2rem"> PILLARS</span>
       </h3>
@@ -233,7 +233,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.coursel-image {
+  height: 500px;
+}
+#program {
+  text-align: center;
+  margin-top: 15px;
+}
 .property-link {
   text-decoration: none;
   color: rgb(50, 50, 250);
@@ -348,6 +355,10 @@ input {
 
   #col-hiden {
     display: none;
+  }
+
+  .coursel-image {
+    height: 450px;
   }
 }
 </style>

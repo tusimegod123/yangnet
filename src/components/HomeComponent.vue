@@ -10,7 +10,7 @@
 
     <div style="text-align: center; margin-top: 15px">
       <h3 style="font-size: 2rem">
-        <span style="color: #1b9527; font-size: 2rem"> ABOUT </span>US
+        <span style="color: #1b9527; font-size: 2rem"> WEL</span>COME
       </h3>
     </div>
     <br />
@@ -89,9 +89,11 @@
         </v-col>
         <v-col></v-col>
       </v-row>
+    </v-container>
+    <v-container>
       <v-row>
         <v-col class="about-col">
-          <v-img max-width="860" src="../assets/young-about.webp" />
+          <v-img max-width="560" src="../assets/resilence.jpg" />
         </v-col>
         <v-col style="background: #edf9ee">
           <p
@@ -112,8 +114,9 @@
             enterprise founded in 2016, with the aim of promoting climate
             justice agribusiness and response; gender and financial inclusions;
             research and advocacy; mentorship and life skills empowerment among
-            under-served vulnerable young people and women while leveraging on
-            partnerships. YAGANET’s prime motto is
+            under-served vulnerable young people and women including those
+            living with disabilities while leveraging on partnerships. YAGANET’s
+            prime motto is
             <b> ‘Young people and women at the forefront of actions.’</b>
           </p>
         </v-col>
@@ -153,8 +156,8 @@
             </router-link>
           </p>
         </v-col>
-        <v-col class="volunteer">
-          <v-img max-width="600" src="../assets/volunteer.jpg" />
+        <v-col>
+          <v-img max-width="600" src="../assets/entreprenure.jpg" />
         </v-col>
       </v-row> </v-container
     ><br />
@@ -232,7 +235,7 @@
       <v-row>
         <v-col cols="12" sm="3" md="3" lg="3">
           <a href="https://www.greengrants.org/" target="_blank">
-            <v-card class="mx-auto" height="200px">
+            <v-card class="mx-auto" height="215px">
               <p style="margin: auto; padding: 10px; padding-top: 50px">
                 <v-img
                   src="../assets/GGF LOGO--Patner (1).png"
@@ -243,8 +246,21 @@
           </a>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
+          <a href="https://www.creationsforumafrika.org/" target="_blank">
+            <v-card class="mx-auto" height="215px">
+              <p style="margin: auto; padding: 10px">
+                <v-img
+                  src="../assets/logo.png"
+                  width="450px"
+                  height="198px"
+                ></v-img>
+              </p>
+            </v-card>
+          </a>
+        </v-col>
+        <v-col cols="12" sm="3" md="3" lg="3">
           <a href="https://umgibe.org/" target="_blank">
-            <v-card class="mx-auto" height="200px">
+            <v-card class="mx-auto" height="215px">
               <p style="margin: auto; padding: 10px; padding-top: 50px">
                 <v-img
                   src="../assets/Umgibe-Farming-Organics-LOGO.png"
@@ -256,7 +272,7 @@
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
           <a href="https://www.aflatoun.org/" target="_blank">
-            <v-card class="mx-auto" height="200px">
+            <v-card class="mx-auto" height="215px">
               <p style="margin: auto; padding: 10px; padding-top: 30px">
                 <v-img
                   src="../assets/Aflatoun-International-small (1).jpg"
@@ -340,7 +356,7 @@ export default {
 }
 
 #intro {
-  color: #ffffff;
+  color: #abf3b3;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
@@ -360,17 +376,15 @@ input {
 }
 
 #container {
-  background-image: url("../assets/young2.webp");
+  background-image: url("../assets/young-about.webp");
   /* background-image: url("https://res.cloudinary.com/diued7ugb/image/upload/v1626688778/dillon-kydd-XGvwt544g8k-unsplash_lrvzid.jpg"); */
   background-size: cover;
   height: 65vh;
   width: 100%;
 }
-.about-col {
-  background-image: url("../assets/young-about.webp");
-}
+
 .volunteer {
-  background-image: url("../assets/volunteer.jpg");
+  background-image: url("../assets/entreprenure.jpg");
 }
 
 #second-container {

@@ -2,7 +2,7 @@
   <div>
     <v-carousel>
       <v-carousel-item>
-        <v-img src="../assets/try2.jpg" class="coursel-image" />
+        <v-img src="../assets/try1.jpg" class="coursel-image" />
       </v-carousel-item>
       <v-carousel-item>
         <v-img src="../assets/try1.jpg" />
@@ -110,8 +110,9 @@
             enterprise founded in 2016, with the aim of promoting climate
             justice agribusiness and response; gender and financial inclusions;
             research and advocacy; mentorship and life skills empowerment among
-            under-served vulnerable young people and women while leveraging on
-            partnerships. YAGANET’s prime motto is
+            under-served vulnerable young people and women including those
+            living with disabilities while leveraging on partnerships. YAGANET’s
+            prime motto is
             <b> ‘Young people and women at the forefront of actions.’</b>
           </p>
         </v-col>
@@ -326,9 +327,6 @@ input {
 .about-heading {
   text-align: center;
   margin-top: 15px;
-}
-.coursel-image {
-  height: 700px;
 }
 
 @media only screen and (max-width: 768px) {

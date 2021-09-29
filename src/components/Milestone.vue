@@ -102,8 +102,9 @@
             enterprise founded in 2016, with the aim of promoting climate
             justice agribusiness and response; gender and financial inclusions;
             research and advocacy; mentorship and life skills empowerment among
-            under-served vulnerable young people and women while leveraging on
-            partnerships. YAGANET’s prime motto is
+            under-served vulnerable young people and women including those
+            living with disabilities while leveraging on partnerships. YAGANET’s
+            prime motto is
             <b> ‘Young people and women at the forefront of actions.’</b>
           </p>
         </v-col>
