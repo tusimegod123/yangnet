@@ -15,7 +15,7 @@
           <p
             style="
               font-family: Roboto;
-              font-size: 24px;
+              font-size: 1.1rem;
               font-style: normal;
               font-weight: 300;
               line-height: 28px;
@@ -69,6 +69,31 @@
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
           ><v-img src="../assets/try7.jpg" height="200"
+        /></v-col>
+
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_20210923_105934_937.jpg" height="200"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_20210925_151920_800.jpg" height="200"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_20210925_151947_688.jpg" height="200"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_20210923_125842_839.jpg" height="200"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_20210923_105821_106.jpg" height="200"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_20210923_105844_951.jpg" height="200"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/resilence.jpg" height="200"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_20210923_110055_536.jpg" height="200"
         /></v-col>
       </v-row>
     </v-container>

@@ -28,7 +28,7 @@
               <p
                 style="
                   font-family: Roboto;
-                  font-size: 18px;
+                  font-size: 0.9rem;
                   font-style: normal;
                   font-weight: 400;
                   line-height: 21px;
@@ -50,7 +50,7 @@
             <p
               style="
                 font-family: Roboto;
-                font-size: 18px;
+                font-size: 0.9rem;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 21px;
@@ -73,7 +73,7 @@
             <p
               style="
                 font-family: Roboto;
-                font-size: 18px;
+                font-size: 0.9rem;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 21px;
@@ -96,20 +96,7 @@
           <v-img max-width="560" src="../assets/resilence.jpg" />
         </v-col>
         <v-col style="background: #edf9ee">
-          <p
-            style="
-              font-family: Roboto;
-              font-size: 24px;
-              font-style: normal;
-              font-weight: 300;
-              line-height: 28px;
-              letter-spacing: 0em;
-              text-align: left;
-              padding-left: 10px;
-              margin-right: 30px;
-              padding-top: 80px;
-            "
-          >
+          <p class="let">
             Young Agro-Green Africa Network (YAGANET) is a non-profit social
             enterprise founded in 2016, with the aim of promoting climate
             justice agribusiness and response; gender and financial inclusions;
@@ -132,18 +119,7 @@
     <v-container>
       <v-row>
         <v-col style="background: #edf9ee">
-          <p
-            style="
-              font-family: Roboto;
-              font-size: 24px;
-              font-style: normal;
-              font-weight: 300;
-              line-height: 28px;
-              letter-spacing: 0em;
-              text-align: left;
-              padding-top: 70px;
-            "
-          >
+          <p class="let2">
             Volunteering is a unique way to connect with new people, experience
             new places, and expand your skills perspectives and share your
             expertise
@@ -172,17 +148,7 @@
       <v-row>
         <v-col cols="12" sm="12" md="2" lg="2"></v-col>
         <v-col>
-          <p
-            style="
-              font-family: Roboto;
-              font-size: 22px;
-              font-style: normal;
-              font-weight: 300;
-              line-height: 28px;
-              letter-spacing: 0em;
-              text-align: center;
-            "
-          >
+          <p class="let3">
             We are a passionate and experienced team serving a range of
             beneficiaries including marginalized youths and women from
             undeserved rural communities, war affected areas, refugee camps and
@@ -198,30 +164,30 @@
       </v-row>
       <v-row>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try.jpg"
+          ><v-img src="../assets/try.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/entreprenure.jpg"
+          ><v-img src="../assets/entreprenure.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/finacial-litrancy.jpg"
+          ><v-img src="../assets/finacial-litrancy.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/MLD-PROGRAM (3).jpg"
+          ><v-img src="../assets/MLD-PROGRAM (3).jpg" height="200"
         /></v-col>
       </v-row>
       <v-row>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/FB_IMG_1631279094008.jpg"
+          ><v-img src="../assets/FB_IMG_1631279094008.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try5.jpg"
+          ><v-img src="../assets/try5.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/agric-pillar.jpg"
+          ><v-img src="../assets/agric-pillar.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try7.jpg"
+          ><v-img src="../assets/try7.jpg" height="200"
         /></v-col>
       </v-row> </v-container
     ><br />
@@ -295,15 +261,7 @@
             </v-card>
           </a>
         </v-col>
-        <v-col cols="12" sm="3" md="3" lg="3">
-          <a href="https://www.wdfug.org/" target="_blank">
-            <v-card class="mx-auto" height="200px">
-              <p style="margin: auto; padding: 10px">
-                <v-img src="../assets/wilmat.png" width="300px"></v-img>
-              </p>
-            </v-card>
-          </a>
-        </v-col>
+
         <v-col cols="12" sm="3" md="3" lg="3">
           <a href="https://raisingteenagers.org/" target="_blank">
             <v-card class="mx-auto">
@@ -330,51 +288,6 @@ export default {
 </script>
 
 <style scoped>
-.property-link {
-  text-decoration: none;
-  color: rgb(50, 50, 250);
-  font-size: 14px;
-  line-height: 2rem;
-}
-.v-card.on-hover.theme--dark {
-  background-color: rgba(#fff, 0.8);
-
-  color: #000;
-}
-.property-link:hover {
-  text-decoration: underline;
-}
-
-::placeholder {
-  color: #3b6ef3;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.text-field {
-  color: #90c143 !important;
-}
-
-#intro {
-  color: #abf3b3;
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 200px;
-}
-
-input {
-  margin-top: 180px;
-  background-color: #f2f2f2;
-  height: 50px;
-  width: 500px;
-  border-radius: 6px;
-}
-
-#card {
-  background-color: #f4f5f8;
-}
-
 #container {
   background-image: url("../assets/young-about.webp");
   /* background-image: url("https://res.cloudinary.com/diued7ugb/image/upload/v1626688778/dillon-kydd-XGvwt544g8k-unsplash_lrvzid.jpg"); */
@@ -382,18 +295,44 @@ input {
   height: 65vh;
   width: 100%;
 }
-
-.volunteer {
-  background-image: url("../assets/entreprenure.jpg");
+#intro {
+  color: #abf3b3;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 200px;
 }
-
-#second-container {
-  background-color: #1b9527;
+.let {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 10px;
+  margin-right: 30px;
+  padding-top: 80px;
 }
-
-.about-us-container {
-  background-color: #f4f5f8;
-  height: 310px;
+.let2 {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 100px;
+}
+.let3 {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -401,41 +340,44 @@ input {
     height: 30vh;
     width: 100%;
   }
-
-  #second-container {
-    margin-top: auto;
-  }
-
-  .about-us-container {
-    background-color: #ebeef2;
-    height: auto;
-  }
-
   #intro {
-    color: #ffffff;
+    color: #bcf5c3;
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
     margin-top: 80px;
   }
-
-  input {
-    margin-top: 40px;
-    background-color: #f2f2f2;
-    height: 50px;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 6px;
+  .let {
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 15px;
+    margin-right: 30px;
+    padding-bottom: 70px;
   }
-
-  ::placeholder {
-    color: #3b6ef3;
-    font-size: 0.9rem;
-    font-weight: 500;
+  .let2 {
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: auto;
   }
-
-  #col-hiden {
-    display: none;
+  .let3 {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 50px;
   }
 }
 </style>

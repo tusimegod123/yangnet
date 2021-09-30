@@ -2,7 +2,11 @@
   <div>
     <v-carousel>
       <v-carousel-item>
-        <v-img src="../assets/try1.jpg" class="coursel-image" />
+        <v-img
+          src="../assets/IMG_20210923_121422_255.jpg"
+          class="coursel-image"
+          height="1000"
+        />
       </v-carousel-item>
       <v-carousel-item>
         <v-img src="../assets/try1.jpg" />
@@ -29,7 +33,7 @@
               <p
                 style="
                   font-family: Roboto;
-                  font-size: 18px;
+                  font-size: 0.9rem;
                   font-style: normal;
                   font-weight: 400;
                   line-height: 21px;
@@ -51,7 +55,7 @@
             <p
               style="
                 font-family: Roboto;
-                font-size: 18px;
+                font-size: 0.9rem;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 21px;
@@ -74,7 +78,7 @@
             <p
               style="
                 font-family: Roboto;
-                font-size: 18px;
+                font-size: 0.9rem;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 21px;
@@ -95,7 +99,7 @@
           <p
             style="
               font-family: Roboto;
-              font-size: 24px;
+              font-size: 1.1rem;
               font-style: normal;
               font-weight: 300;
               line-height: 28px;
@@ -136,7 +140,7 @@
           <p
             style="
               font-family: Roboto;
-              font-size: 24px;
+              font-size: 1.1rem;
               font-style: normal;
               font-weight: 300;
               line-height: 28px;
@@ -194,7 +198,7 @@
           <p
             style="
               font-family: Roboto;
-              font-size: 24px;
+              font-size: 1.1rem;
               font-style: normal;
               font-weight: 300;
               line-height: 28px;

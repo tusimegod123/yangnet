@@ -47,7 +47,7 @@
             <v-img
               class="white--text align-end"
               height="200px"
-              src="../assets/try.jpg"
+              src="../assets/IMG_20210923_105821_106.jpg"
             >
             </v-img>
 

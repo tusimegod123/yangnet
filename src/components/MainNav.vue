@@ -7,6 +7,7 @@
           height="135"
           width="130"
           src="../assets/YAGANETBOLD.jpg"
+          id="image"
         ></v-img>
       </div>
       <router-link to="/" style="text-decoration: none">
@@ -178,7 +179,6 @@ export default {
 .title {
   color: #fff;
   text-align: left;
-
   padding-top: 30px;
   font-weight: 600;
   padding-left: 10px;
@@ -188,11 +188,24 @@ export default {
 }
 
 @media only screen and (max-width: 947px) {
+  .title {
+    color: #fff;
+    text-align: left;
+    padding-top: 30px;
+    font-weight: 500;
+    padding-left: 10px;
+  }
   .toggle {
     display: block;
+    padding-top: 40px;
+    font-size: 3rem;
   }
   .hid-navbar {
     display: none;
+  }
+  #image {
+    height: 100px;
+    width: 100px;
   }
 }
 </style>

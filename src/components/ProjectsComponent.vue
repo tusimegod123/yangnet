@@ -244,7 +244,7 @@
           <p
             style="
               font-family: Roboto;
-              font-size: 24px;
+              font-size: 1.1rem;
               font-style: normal;
               font-weight: 300;
               line-height: 28px;
@@ -264,7 +264,7 @@
           </p>
         </v-col>
         <v-col class="about-col">
-          <v-img max-width="860" src="../assets/young-about.webp" />
+          <v-img max-width="860" src="../assets/IMG_20210925_151856_902.jpg" />
         </v-col>
       </v-row> </v-container
     ><br />

@@ -202,7 +202,7 @@
           </p>
         </v-col>
         <v-col class="history">
-          <v-img max-width="700" src="../assets/try6.jpg" />
+          <v-img max-width="700" src="../assets/IMG_20210925_151856_902.jpg" />
         </v-col>
       </v-row> </v-container
     ><br />
@@ -299,9 +299,7 @@ input {
 .how-we-work {
   background-image: url("../assets/try7.jpg");
 }
-.history {
-  background-image: url("../assets/try6.jpg");
-}
+
 .volunteer {
   background-image: url("../assets/volunteer.jpg");
 }
