@@ -135,25 +135,32 @@
 
         <v-col cols="12" sm="12" md="4" lg="4" class="get-in-touch">
           <h3>Get in touch with us</h3>
-          <v-text-field
-            v-model="firstname"
-            label="Name"
-            required
-            solo
-          ></v-text-field>
-          <v-text-field
-            v-model="firstname"
-            label="Email"
-            required
-            solo
-          ></v-text-field>
-          <v-textarea
-            v-model="firstname"
-            label="Message"
-            required
-            solo
-          ></v-textarea>
-          <v-btn color="white"><span style="color: green">Submit</span></v-btn>
+          <v-form @submit.prevent="sendEmail">
+            <v-text-field
+              v-model="from_name"
+              name="from_name"
+              label="Name"
+              required
+              solo
+            ></v-text-field>
+            <v-text-field
+              v-model="email"
+              name="email"
+              label="Email"
+              required
+              solo
+            ></v-text-field>
+            <v-textarea
+              v-model="message"
+              name="message"
+              label="Message"
+              required
+              solo
+            ></v-textarea>
+            <v-btn color="white" type="submit"
+              ><span style="color: green">Submit</span></v-btn
+            >
+          </v-form>
         </v-col>
       </v-row>
     </v-container>
@@ -171,8 +178,39 @@
   </div>
 </template>
 <script>
+import emailjs from "emailjs-com";
 export default {
   name: "Footer",
+  data() {
+    return {
+      from_name: "",
+      from_email: "",
+      message: "",
+    };
+  },
+  methods: {
+    sendEmail(e) {
+      try {
+        emailjs.sendForm(
+          "service_7pgatdz",
+          "template_vlx69ag",
+          e.target,
+          "user_uzd88AsOBp8NFOwHdJAjA",
+          {
+            from_name: this.name,
+            email: this.email,
+            message: this.message,
+          }
+        );
+      } catch (error) {
+        console.log({ error });
+      }
+      // Reset form field
+      this.from_name = "";
+      this.email = "";
+      this.message = "";
+    },
+  },
 };
 </script>
 
