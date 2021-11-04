@@ -29,7 +29,9 @@
               :class="{ 'on-hover': hover }"
               style="height: 200px; margin: 20px"
             >
-              <h1 style="text-align: center">Who Are We ?</h1>
+              <h1 style="text-align: center">
+                <span style="color: #1b9527"> Who</span> Are We ?
+              </h1>
               <p
                 style="
                   font-family: Roboto;
@@ -51,7 +53,9 @@
         </v-col>
         <v-col cols="12" sm="12" md="3" lg="3">
           <v-card style="height: 200px; margin: 20px">
-            <h1 style="text-align: center">Our Mission</h1>
+            <h1 style="text-align: center">
+              <span style="color: #1b9527"> Our </span>Mission
+            </h1>
             <p
               style="
                 font-family: Roboto;
@@ -73,7 +77,9 @@
         </v-col>
         <v-col cols="12" sm="12" md="3" lg="3">
           <v-card style="height: 200px; margin: 20px">
-            <h1 style="text-align: center">Our Vision</h1>
+            <h1 style="text-align: center">
+              <span style="color: #1b9527"> Our </span>Vision
+            </h1>
 
             <p
               style="
@@ -110,13 +116,14 @@
               padding-top: 80px;
             "
           >
-            Young Agro-Green Africa Network (YAGANET) is a non-profit social
-            enterprise founded in 2016, with the aim of promoting climate
-            justice agribusiness and response; gender and financial inclusions;
-            research and advocacy; mentorship and life skills empowerment among
-            under-served vulnerable young people and women including those
-            living with disabilities while leveraging on partnerships. YAGANET’s
-            prime motto is
+            Founded in 2016, Young Agro-Green Africa Network (YAGANET) is a
+            social enterprise addressing the most urgent and pressing needs of
+            communities. YAGANET promotes climate justice agribusiness and
+            response to climate change effects; Gender and financial
+            inclusions/education; Research and advocacy; Mentorship and life
+            skills empowerment services among under-served young people and
+            women including people living with disabilities in Uganda. Our prime
+            motto is
             <b> ‘Young people and women at the forefront of actions.’</b>
           </p>
         </v-col>

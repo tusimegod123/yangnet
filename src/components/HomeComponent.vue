@@ -3,17 +3,20 @@
     <v-container id="container" fluid>
       <v-row no-gutters>
         <v-col cols="12" md="12" xs="12">
-          <p id="intro">Let’s make a world a better place for everyone</p>
+          <!-- <p id="intro">Let’s make a world a better place for everyone</p> -->
         </v-col>
       </v-row>
     </v-container>
 
     <div style="text-align: center; margin-top: 15px">
       <h3 style="font-size: 2rem">
-        <span style="color: #1b9527; font-size: 2rem"> WEL</span>COME
+        Let’s make the world a
+        <span style="color: #1b9527; font-size: 1.7rem"
+          >better place for everyone</span
+        >
       </h3>
     </div>
-    <br />
+
     <v-container fluid>
       <v-row id="second-container">
         <v-col></v-col>
@@ -24,7 +27,9 @@
               :class="{ 'on-hover': hover }"
               style="height: 200px; margin: 20px"
             >
-              <h1 style="text-align: center">Who We Are?</h1>
+              <h1 style="text-align: center">
+                <span style="color: #1b9527">Who</span> We Are?
+              </h1>
               <p
                 style="
                   font-family: Roboto;
@@ -46,7 +51,9 @@
         </v-col>
         <v-col cols="12" sm="12" md="3" lg="3">
           <v-card style="height: 200px; margin: 20px">
-            <h1 style="text-align: center">Our Mission</h1>
+            <h1 style="text-align: center">
+              <span style="color: #1b9527">Our </span>Mission
+            </h1>
             <p
               style="
                 font-family: Roboto;
@@ -68,7 +75,9 @@
         </v-col>
         <v-col cols="12" sm="12" md="3" lg="3">
           <v-card style="height: 200px; margin: 20px">
-            <h1 style="text-align: center">Our Vision</h1>
+            <h1 style="text-align: center">
+              <span style="color: #1b9527">Our</span> Vision
+            </h1>
 
             <p
               style="
@@ -97,13 +106,14 @@
         </v-col>
         <v-col style="background: #edf9ee">
           <p class="let">
-            Young Agro-Green Africa Network (YAGANET) is a non-profit social
-            enterprise founded in 2016, with the aim of promoting climate
-            justice agribusiness and response; gender and financial inclusions;
-            research and advocacy; mentorship and life skills empowerment among
-            under-served vulnerable young people and women including those
-            living with disabilities while leveraging on partnerships. YAGANET’s
-            prime motto is
+            Founded in 2016, Young Agro-Green Africa Network (YAGANET) is a
+            social enterprise addressing the most urgent and pressing needs of
+            communities. YAGANET promotes climate justice agribusiness and
+            response to climate change effects; Gender and financial
+            inclusions/education; Research and advocacy; Mentorship and life
+            skills empowerment services among under-served young people and
+            women including people living with disabilities in Uganda. Our prime
+            motto is
             <b> ‘Young people and women at the forefront of actions.’</b>
           </p>
         </v-col>
@@ -164,13 +174,13 @@
       </v-row>
       <v-row>
         <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_5666.jpg" height="200"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
           ><v-img src="../assets/try.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
           ><v-img src="../assets/entreprenure.jpg" height="200"
-        /></v-col>
-        <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/finacial-litrancy.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
           ><v-img src="../assets/MLD-PROGRAM (3).jpg" height="200"
@@ -181,10 +191,10 @@
           ><v-img src="../assets/FB_IMG_1631279094008.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/try5.jpg" height="200"
+          ><v-img src="../assets/IMG_5523.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
-          ><v-img src="../assets/agric-pillar.jpg" height="200"
+          ><v-img src="../assets/finacial-litrancy.jpg" height="200"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
           ><v-img src="../assets/try7.jpg" height="200"
@@ -249,6 +259,33 @@
           </a>
         </v-col>
         <v-col cols="12" sm="3" md="3" lg="3">
+          <a
+            href="https://www.irise.org.uk/the-period-equality-network/"
+            target="_blank"
+          >
+            <v-card class="mx-auto">
+              <p style="margin: auto; padding: 10px">
+                <v-img src="../assets/TPEN-LOGO.png" width="300px"></v-img></p
+            ></v-card>
+          </a>
+        </v-col>
+        <v-col cols="12" sm="3" md="3" lg="3">
+          <a href="https://www.irise.org.uk/east-africa-work/" target="_blank">
+            <v-card class="mx-auto">
+              <p style="margin: auto; padding: 10px">
+                <v-img src="../assets/Irise-logo.png" width="300px"></v-img></p
+            ></v-card>
+          </a>
+        </v-col>
+        <v-col cols="12" sm="3" md="3" lg="3">
+          <a href="https://mcld.org/uganda/" target="_blank">
+            <v-card class="mx-auto">
+              <p style="margin: auto; padding: 10px">
+                <v-img src="../assets/logo MCLD.jpg" width="300px"></v-img></p
+            ></v-card>
+          </a>
+        </v-col>
+        <v-col cols="12" sm="3" md="3" lg="3">
           <a href="https://kadupedi.wordpress.com/" target="_blank">
             <v-card class="mx-auto" height="200px">
               <p style="margin: auto; padding: 10px">
@@ -289,14 +326,14 @@ export default {
 
 <style scoped>
 #container {
-  background-image: url("../assets/young-about.webp");
+  background-image: url("../assets/IMG_5568.jpg");
   /* background-image: url("https://res.cloudinary.com/diued7ugb/image/upload/v1626688778/dillon-kydd-XGvwt544g8k-unsplash_lrvzid.jpg"); */
   background-size: cover;
-  height: 65vh;
+  height: 70vh;
   width: 100%;
 }
 #intro {
-  color: #abf3b3;
+  color: #f85593;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;

@@ -60,7 +60,7 @@
         </v-col>
         <v-col cols="12" sm="12" md="3" lg="3">
           <v-card style="height: 200px; margin: 20px">
-            <h1 style="text-align: center; color: #1b9527">50</h1>
+            <h1 style="text-align: center; color: #1b9527">100+</h1>
 
             <p
               style="

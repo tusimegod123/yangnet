@@ -2,7 +2,7 @@
   <div>
     <v-carousel>
       <v-carousel-item id="carousel">
-        <v-img src="../assets/pillar11.jpg" class="coursel-image" />
+        <v-img src="../assets/IMG_5518.jpg" class="coursel-image" />
       </v-carousel-item>
       <v-carousel-item>
         <v-img src="../assets/try1.jpg" />
@@ -188,21 +188,20 @@
               padding-top: 80px;
             "
           >
-            YAGANET was found in 2014 and formally registered in 2016 with a
-            promise to scale up women owned informal small enterprises. Our
-            founder grew up and studied a herd way, lost his dad in primary
-            seven, left with a struggling mother who engaged in...........
-          </p>
-          <p style="text-align: center">
-            <v-btn color="#1b9527" style="margin: auto; padding: 10px">
-              <span style="color: white; text-transform: capitalize"
-                >Read More</span
-              >
-            </v-btn>
+            Founded in 2016, Young Agro-Green Africa Network (YAGANET) is a
+            social enterprise addressing the most urgent and pressing needs of
+            communities. YAGANET promotes climate justice agribusiness and
+            response to climate change effects; Gender and financial
+            inclusions/education; Research and advocacy; Mentorship and life
+            skills empowerment services among under-served young people and
+            women including people living with disabilities in Uganda. Our prime
+            motto is<b>
+              ‘Young people and women at the forefront of actions.’</b
+            >
           </p>
         </v-col>
         <v-col class="history">
-          <v-img max-width="700" src="../assets/IMG_20210925_151856_902.jpg" />
+          <v-img max-width="700" src="../assets/IMG_5518.jpg" />
         </v-col>
       </v-row> </v-container
     ><br />
@@ -216,7 +215,7 @@ export default {
     return {
       items: [
         {
-          src: "../assets/try4.jpg",
+          src: "../assets/IMG_5518.jpg",
         },
         {
           src: "../assets/try4.jpg",
@@ -234,9 +233,9 @@ export default {
 </script>
 
 <style scoped>
-.coursel-image {
+/* .coursel-image {
   height: 500px;
-}
+} */
 #program {
   text-align: center;
   margin-top: 15px;

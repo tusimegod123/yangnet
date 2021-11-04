@@ -33,6 +33,18 @@
       </v-row>
       <v-row>
         <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_5370.jpg"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_5421.jpg"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_5429.jpg"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
+          ><v-img src="../assets/IMG_5430.jpg"
+        /></v-col>
+        <v-col cols="12" sm="12" md="3" lg="3"
           ><v-img src="../assets/try.jpg"
         /></v-col>
         <v-col cols="12" sm="12" md="3" lg="3"
