@@ -209,7 +209,167 @@
     </div>
     <v-container>
       <v-row>
-        <v-col cols="12" sm="3" md="3" lg="3">
+        <v-carousel
+          cycle
+          height="400"
+          hide-delimiter-background
+          interval="2000"
+        >
+          <template v-slot:prev="{ on, attrs }">
+            <v-btn color="success" v-bind="attrs" v-on="on">Previous </v-btn>
+          </template>
+          <template v-slot:next="{ on, attrs }">
+            <v-btn color="info" v-bind="attrs" v-on="on">Next </v-btn>
+          </template>
+          <v-carousel-item>
+            <!-- <v-sheet height="100%"> -->
+            <v-row class="fill-height" align="center" justify="center">
+              <v-col cols="12" sm="12" md="3" lg="3">
+                <a href="https://www.greengrants.org/" target="_blank">
+                  <v-card class="mx-auto" height="215px">
+                    <p style="margin: auto; padding: 10px; padding-top: 50px">
+                      <v-img
+                        src="../assets/GGF LOGO--Patner (1).png"
+                        width="500px"
+                      ></v-img>
+                    </p>
+                  </v-card>
+                </a>
+              </v-col>
+            </v-row>
+            <!-- </v-sheet> -->
+          </v-carousel-item>
+          <v-carousel-item>
+            <!-- <v-sheet height="100%"> -->
+            <v-row class="fill-height" align="center" justify="center">
+              <v-col cols="12" sm="12" md="3" lg="3">
+                <a href="https://www.creationsforumafrika.org/" target="_blank">
+                  <v-card class="mx-auto" height="215px">
+                    <p style="margin: auto; padding: 10px">
+                      <v-img
+                        src="../assets/logo.png"
+                        width="450px"
+                        height="198px"
+                      ></v-img>
+                    </p>
+                  </v-card>
+                </a>
+              </v-col>
+            </v-row>
+            <!-- </v-sheet> -->
+          </v-carousel-item>
+          <v-carousel-item>
+            <!-- <v-sheet height="100%"> -->
+            <v-row class="fill-height" align="center" justify="center">
+              <v-col cols="12" sm="12" md="3" lg="3">
+                <a href="https://umgibe.org/" target="_blank">
+                  <v-card class="mx-auto" height="215px">
+                    <p style="margin: auto; padding: 10px; padding-top: 50px">
+                      <v-img
+                        src="../assets/Umgibe-Farming-Organics-LOGO.png"
+                        width="500px"
+                      ></v-img>
+                    </p>
+                  </v-card>
+                </a>
+              </v-col>
+            </v-row>
+            <!-- </v-sheet> -->
+          </v-carousel-item>
+          <v-carousel-item>
+            <!-- <v-sheet height="100%"> -->
+            <v-row class="fill-height" align="center" justify="center">
+              <v-col cols="12" sm="12" md="3" lg="3">
+                <a href="https://www.aflatoun.org/" target="_blank">
+                  <v-card class="mx-auto" height="215px">
+                    <p style="margin: auto; padding: 10px; padding-top: 30px">
+                      <v-img
+                        src="../assets/Aflatoun-International-small (1).jpg"
+                        width="300px"
+                      ></v-img>
+                    </p>
+                  </v-card>
+                </a>
+              </v-col>
+            </v-row>
+            <!-- </v-sheet> -->
+          </v-carousel-item>
+          <v-carousel-item>
+            <!-- <v-sheet height="100%"> -->
+            <v-row class="fill-height" align="center" justify="center">
+              <v-col cols="12" sm="12" md="3" lg="3">
+                <a
+                  href="https://www.irise.org.uk/the-period-equality-network/"
+                  target="_blank"
+                >
+                  <v-card class="mx-auto">
+                    <p style="margin: auto; padding: 10px">
+                      <v-img
+                        src="../assets/TPEN-LOGO.png"
+                        width="300px"
+                      ></v-img></p
+                  ></v-card>
+                </a>
+              </v-col>
+            </v-row>
+            <!-- </v-sheet> -->
+          </v-carousel-item>
+          <v-carousel-item>
+            <!-- <v-sheet height="100%"> -->
+            <v-row class="fill-height" align="center" justify="center">
+              <v-col cols="12" sm="12" md="3" lg="3">
+                <a href="https://mcld.org/uganda/" target="_blank">
+                  <v-card class="mx-auto">
+                    <p style="margin: auto; padding: 10px">
+                      <v-img
+                        src="../assets/logo MCLD.jpg"
+                        width="300px"
+                      ></v-img></p
+                  ></v-card>
+                </a>
+              </v-col>
+            </v-row>
+            <!-- </v-sheet> -->
+          </v-carousel-item>
+          <v-carousel-item>
+            <!-- <v-sheet height="100%"> -->
+            <v-row class="fill-height" align="center" justify="center">
+              <v-col cols="12" sm="12" md="3" lg="3">
+                <a href="https://kadupedi.wordpress.com/" target="_blank">
+                  <v-card class="mx-auto" height="200px">
+                    <p style="margin: auto; padding: 10px">
+                      <v-img
+                        src="../assets/kagupedi logo--patner (1).jpg"
+                        width="300px"
+                        height="190px"
+                      ></v-img>
+                    </p>
+                  </v-card>
+                </a>
+              </v-col>
+            </v-row>
+            <!-- </v-sheet> -->
+          </v-carousel-item>
+          <v-carousel-item>
+            <v-row class="fill-height" align="center" justify="center">
+              <!-- <v-sheet height="100%"> -->
+              <v-col cols="12" sm="12" md="3" lg="3">
+                <a href="https://raisingteenagers.org/" target="_blank">
+                  <v-card class="mx-auto">
+                    <p style="margin: auto; padding: 10px">
+                      <v-img
+                        src="../assets/partner.jpeg"
+                        width="300px"
+                      ></v-img></p
+                  ></v-card>
+                </a>
+              </v-col>
+            </v-row>
+            <!-- </v-sheet> -->
+          </v-carousel-item>
+        </v-carousel>
+
+        <!-- <v-col cols="12" sm="3" md="3" lg="3">
           <a href="https://www.greengrants.org/" target="_blank">
             <v-card class="mx-auto" height="215px">
               <p style="margin: auto; padding: 10px; padding-top: 50px">
@@ -306,7 +466,7 @@
                 <v-img src="../assets/partner.jpeg" width="300px"></v-img></p
             ></v-card>
           </a>
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-container>
   </div>
@@ -326,7 +486,7 @@ export default {
 
 <style scoped>
 #container {
-  background-image: url("../assets/IMG_5568.jpg");
+  background-image: url("../assets/young-about.webp");
   /* background-image: url("https://res.cloudinary.com/diued7ugb/image/upload/v1626688778/dillon-kydd-XGvwt544g8k-unsplash_lrvzid.jpg"); */
   background-size: cover;
   height: 70vh;
