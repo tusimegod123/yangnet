@@ -21,121 +21,120 @@
       <v-row class="hid-navbar">
         <v-menu text offset-y>
           <template v-slot:activator="{ attrs, on }">
-            <a
-              href="/about"
+            <router-link
+              to="/about"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"
               style="text-decoration: none; color: white"
-              >About Us
-            </a>
+              >About Us</router-link
+            >
           </template>
         </v-menu>
 
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
-            <a
-              href="/scope"
+            <router-link
+              to="/scope"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"
-              style="text-decoration: none"
-              icon
+              style="text-decoration: none; color: white"
               @click="show2 = !show2"
-              >Our Scope
-            </a>
+              >Our scope</router-link
+            >
           </template>
         </v-menu>
 
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
-            <a
-              href="/projects"
+            <router-link
+              to="/projects"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"
-              style="text-decoration: none"
+              style="text-decoration: none; color: white"
               icon
               @click="show3 = !show3"
-              >Projects
-            </a>
+              >Projects</router-link
+            >
           </template>
           <div style="display: flex; flex-direction: row"></div>
         </v-menu>
 
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
-            <a
-              href="/milestone"
+            <router-link
+              to="/milestone"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"
-              style="text-decoration: none"
+              style="text-decoration: none; color: white"
               icon
               @click="show4 = !show4"
-              >Milestone
-            </a>
+              >Milestone</router-link
+            >
           </template>
         </v-menu>
 
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
-            <a
-              href="/team"
+            <router-link
+              to="/team"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"
-              style="text-decoration: none"
+              style="text-decoration: none; color: white"
               icon
               @click="show4 = !show4"
-              >Team
-            </a>
+              >Team</router-link
+            >
           </template>
           <v-list> </v-list>
         </v-menu>
 
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
-            <a
-              href="#"
+            <router-link
+              to="/gallery"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"
-              style="text-decoration: none"
+              style="text-decoration: none; color: white"
               icon
               @click="show4 = !show4"
-              >Media
-            </a>
+              >Media</router-link
+            >
           </template>
         </v-menu>
 
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
-            <a
-              href="/gallery"
+            <router-link
+              to="/gallery"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"
-              style="text-decoration: none"
+              style="text-decoration: none; color: white"
               icon
               @click="show4 = !show4"
-              >Gallery
-            </a>
+              >Gallery</router-link
+            >
           </template>
         </v-menu>
 
         <v-menu :key="text" :rounded="rounded" offset-y>
           <template v-slot:activator="{ attrs, on }">
-            <a
-              href="/getinvolved"
+            <router-link
+              to="/getinvolved"
               class="white--text ma-7"
               v-bind="attrs"
               v-on="on"
-              style="text-decoration: none"
+              style="text-decoration: none; color: white"
               icon
               @click="show4 = !show4"
-              >Join Us
-            </a>
+              >Join Us</router-link
+            >
           </template>
         </v-menu>
       </v-row>
