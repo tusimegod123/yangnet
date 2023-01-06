@@ -1,4 +1,4 @@
-# stanbic-properties
+# Yagnet
 
 ## Project setup
 ```
